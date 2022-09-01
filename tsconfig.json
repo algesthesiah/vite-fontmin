@@ -1,0 +1,20 @@
+{
+  "extends": "base-ts-config",
+  "compilerOptions": {
+    "jsx": "react",
+    "rootDir": "./src",
+    "outDir": "./lib"
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/build",
+    "**/scripts",
+    "**/dist",
+    "**/es",
+    "**/lib"
+  ]
+}
